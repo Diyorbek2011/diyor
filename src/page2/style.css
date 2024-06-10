@@ -1,0 +1,377 @@
+  #app {
+    height: 100%;
+  }
+  * {
+    font-family: sans-serif;
+  }
+  .swiper {
+    height: 400px;
+  }
+
+  .swiper-slide {
+    font-size: 20px;
+  }
+  .slider_1{
+    background-image: url(../imglar/picture_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    gap: 5px;
+    color: white;
+    opacity: 0.7 ;
+    
+  }
+  .slider_2{
+    background-image: url(../imglar/picture_2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    opacity: 0.9;
+  }
+  .slider{
+    padding: 80px 200px;
+    display: block;
+  }
+
+  .slider_slider{
+    width: 440px;
+    height: 90px;
+    background-color:  #3db166;
+    color: white;
+    padding: 8px;
+  }
+  .h1{
+    padding-top: 10px;
+  }
+  .slider_2{
+    color: white;
+  }
+  .h3{
+    padding-top: 10px;
+  }
+  .slider_two{
+    padding: 50px 250px;
+  }
+  .chizi{
+    width: 300px;
+    height: 5px;
+    background-color: #3db166;
+    margin-top: 20px;
+  }
+  .pictures_1{
+    background-image: url(../imglar/hp2-col-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    text-align: center
+  }
+  .pictures_1 h3{
+    color: white;
+  }
+  .li{
+    padding: 100px;
+  }
+  .pictures_2{
+    background-image: url(../imglar/hp2-col-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+  }
+  .pictures_3{
+    background-image: url(../imglar/teacher-cambridge-cl.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+  }
+  .qa{
+    width: 50px;
+    height: 50px;
+  }
+  .pictures_4{
+    background-image: url(../imglar/hp2-col-4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+  }
+  .pictures{
+      display: grid;
+      justify-content: center;
+      gap: 0px 0px;
+      grid-template-columns: repeat(auto-fit, 360px);
+      
+  }
+  .slider_h1{
+    color: black;
+    color: var(--textColor);
+
+  }
+  .slider_h2{
+    color: black;
+    color: var(--textColor);
+  }
+
+  .button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.6em 2em;
+    border: mediumspringgreen solid 0.15em;
+    border-radius: 0.25em;
+    color: mediumspringgreen;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border 300ms, color 300ms;
+    user-select: none;
+  }
+
+  .button p {
+    z-index: 1;
+    font-size: 22px;
+
+  }
+  .button{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .button:hover {
+    color: #212121;
+  }
+
+  .button:active {
+    border-color: teal;
+  }
+
+  .button::after, .button::before {
+    content: "";
+    position: absolute;
+    width: 9em;
+    aspect-ratio: 1;
+    background: mediumspringgreen;
+    opacity: 50%;
+    border-radius: 50%;
+    transition: transform 500ms, background 300ms;
+  }
+
+  .button::before {
+    left: 0;
+    transform: translateX(-8em);
+  }
+
+  .button::after {
+    right: 0;
+    transform: translateX(8em);
+  }
+
+  .button:hover:before {
+    transform: translateX(-1em);
+  }
+
+  .button:hover:after {
+    transform: translateX(1em);
+  }
+
+  .button:active:before,
+  .button:active:after {
+    background: teal;
+  }
+
+
+  @media(max-width:1439px){
+    .pictures{
+      display: grid;
+      gap: 0px 0px;
+      grid-template-columns: repeat(auto-fit, 359.7px);
+    }
+  }
+  @media(max-width:1328px){
+    .slider_two{
+      padding: 50px 200px;
+    }
+  }
+  @media(max-width:1228px){
+    .slider_two{
+      padding: 50px 150px;
+    }
+  }
+  @media(max-width:1128px){
+    .slider_two{
+      padding: 50px 100px;
+    }
+  }
+  @media(max-width:1028px){
+    .slider_two{
+      padding: 50px 50px;
+    }
+  }
+  @media(max-width:928px){
+    .slider_two{
+      padding: 50px 10px;
+    }
+    .h1{
+      font-size: 24px;
+    }
+    .slider_slider{
+      width: 380px;
+      height: 70px;
+    }
+    .h3{
+      font-size: 22px;
+      font-weight: 400;
+    }
+  }
+  @media(max-width:771px){
+    .h3{
+      font-size: 20px;
+    }
+    .h1{
+      font-size: 22px;
+    }
+    .slider_slider{
+      width: 300px;
+
+    }
+  }
+  @media(max-width:703px){
+    .h1{
+      font-size: 20px;
+    }
+    .h3{
+      font-size: 18px;
+    }
+  }
+  @media(max-width: 635px){
+    .h1{
+      font-size: 18px;
+    }
+    .slider_slider{
+      width: 250px;
+      height: 50px;
+    }
+    .h3{
+      font-size: 17px;
+    }
+  }
+  @media(max-width:600px){
+    h1{
+      font-weight: 600;
+    }
+    .h3{
+      font-weight: 600;
+    }
+    .slider_slider{
+    text-align: center; 
+      margin: auto;
+    }
+    .chizi{
+      margin: auto;
+    }
+    .h3{
+      text-align: center;
+    }
+  }
+  @media(max-width:350px){
+    .chizi{
+      margin-top: 30px;
+    }
+  }
+  @media(max-width:650px){
+    .slider{
+      padding: 80px 150px;
+    }
+  }
+  @media(max-width:600px){
+    .slider{
+      padding: 80px 130px;
+    }
+  }
+  @media(max-width:550px){
+    .slider{
+      padding: 80px 120px;
+    }
+  }
+  @media(max-width:500px){
+    .slider{
+      padding: 80px 100px;
+    }
+  }
+  @media(max-width:450px){
+    .slider{
+      padding: 80px 80px;
+    }
+  }
+  @media(max-width:400px){
+    .slider{
+      padding: 80px 60px;
+    }
+  }
+  @media(max-width:350px){
+    .slider{
+      padding: 80px 40px;
+    }
+  }
+  @media(max-width:750px){
+    .slider{
+      padding: 50px 50px;
+    }
+  }
+@media(max-width:719px){
+  .pictures{
+    display: block;
+  }
+  .li h3{
+    font-size: 28px;
+  }
+}
+@media(max-width:600px){
+  .slider{
+    padding: 50px 40px;
+  }
+}
+@media(max-width:585px){
+  .slider{
+    padding: 50px 20px;
+  }
+}
+@media(max-width:565px){
+  .slider{
+    padding: 50px 10px;
+  }
+}
+@media(max-width:555px){
+  .slider{
+    padding: 50px 1px;
+  }
+}
+@media(max-width:545px){
+  .slider_h1{
+    font-size: 35px;
+  }
+}
+@media(max-width:485px){
+  .slider_h1{
+    font-size: 30px;
+  }
+}
+@media(max-width:420px){
+  .slider_h1{
+    font-size: 25px;
+  }
+  .slider_h2{
+    font-size: 24px;
+  }
+  .slider{
+    padding-top: 100px;
+  }
+}

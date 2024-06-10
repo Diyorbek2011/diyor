@@ -1,0 +1,24 @@
+.NotFound {
+    background-image: url(../imglar/a-404-not-found-error-businessman-working-on-a-laptop-he-got-a-404-error-flat-illustration-vector.jpg);
+    max-width: 1600px;
+    height: 737px;
+    background-size: cover;
+}
+
+.buton{
+    margin-top: 684px;
+    width: 200px;
+    margin-left: 305px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1cbce4;
+    transition: all 0.7s;
+    &:hover{
+        background-color: #6C7B89;
+        color: #C2F2FE;
+    }
+
+}

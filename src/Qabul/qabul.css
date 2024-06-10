@@ -1,0 +1,52 @@
+.qabul {
+  background-image: url(../imglar/c3IUl717062757430505_l.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  display: flex;
+  height: 737px;
+}
+.qabul h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+}
+.qabul button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: #ab7d6a;
+  transition: all 0.6s;
+  border-radius: 8px;
+  &:hover {
+    background-color: #2e3a1d;
+    color: white;
+  }
+}
+.qabul a {
+  width: 160px;
+
+}
+.qabul1 {
+  padding: 50px 0 0 100px;
+  display: grid;
+  gap: 20px;
+  padding-bottom: 74px;
+}
+@media((max-width:800px)){
+  .qabul1 h1{
+    text-align: center;
+  }
+  .qabul1 h2{
+    text-align: center;
+  }
+  .qabul header{
+    display: flex;
+    justify-content: center;
+
+  }
+  .qabul1{
+    padding: 0;
+  }
+}

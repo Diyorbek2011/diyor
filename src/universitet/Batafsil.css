@@ -1,0 +1,16 @@
+.batafsil_h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 20px;
+}
+.batafsil_p{
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+.batafsil_page{
+    max-width: 1600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

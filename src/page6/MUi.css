@@ -1,0 +1,168 @@
+p{
+    color: white;
+}
+.buttons{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.Tab{
+    width: 150px;
+    height: 50px;
+    color: black;
+    box-shadow: 0 0 8px  #3db166;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #3db166;
+    cursor: pointer;
+}
+.hh2{
+    color: rgb(15, 15, 107);
+    padding: 40px 0px;
+}
+.pagee7{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    background-color: #e6e6e6;
+    padding-bottom: 25px;
+    background-color: var(--backColor);
+
+}
+.chakra-tabs__tab-panel{
+    background-color: var(--backColor);
+}
+.buttons{
+    padding-top: 25px;
+}
+.clasname{
+    padding: 10px 0 0 50px;
+    background-color: #e6e6e6;
+    width: 700px;
+
+}
+
+.css-sjt5nk{
+    width: 600px;
+    height: 250px;
+    padding-bottom: 50px;
+}
+#p{
+    color: black;
+    color: var(--textColor);
+}
+.hh2{
+    color: var(--textColor);
+}
+.chakra-tabs__tab-panels css-8atqhb{
+    background-color: var(--backColor);
+}
+#p{
+    font-size: 24px;
+}
+.Tab{
+    background-color: var(--backColor);
+    color: var(--textColor);
+}
+.clasname{
+    background-color: var(--backColor);
+    height: 250px;
+}
+.clasname p{
+    color: var(--textColor);
+}
+@media(max-width:1440px){
+    .clasname{
+        width: 100%;
+    }
+}
+@media(max-width:1290px){
+    .pagee7{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+        gap: 0px;
+    }
+    .clasname{
+        width: 80%;
+    }
+}
+@media(max-width:1050px){
+    .clasname{
+        width: 90%;
+    }
+}
+@media(max-width:640px){
+    .page7_yarm{
+        display: none;
+    }
+    #eror{
+        width: 50%;
+    }
+}
+@media(max-width:487px){
+    #p{
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+}
+@media(max-width:496px){
+    .clasname{
+        width: 80%;
+    }
+    #p{
+        font-size: 20px;
+    }
+}
+@media(max-width:400px){
+    .Tab{
+        width: 130px;
+    }
+    .clasname{
+        width: 70%;
+    }
+    #p{
+        font-size: 18px;
+    }
+    .buttons{
+        width: 90%;
+    }
+}
+@media(max-width:390px){
+    .buttons{
+        width: 70%;
+        display: grid;
+        padding-left: 55px;
+    }
+    .page7{
+        width: 80%;
+    }
+    .Tab{
+        width: 115px;
+    }
+}
+@media(max-width:356px){
+    .page7{
+        height: 400px;
+    }
+}
+@media(max-width:391px){
+    #p{
+        text-align: center;
+    }
+    .hh2{
+        text-align: center;
+    }
+}
+@media(max-width:390px){
+    .pagee7{
+        padding-bottom: 100px;
+    }
+}
+
+@media(max-width:370px){
+    .buttons{
+        margin-left: -51px;
+    }
+}

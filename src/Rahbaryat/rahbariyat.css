@@ -1,0 +1,182 @@
+.rahbariyat_h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 25px 0;
+  color: var(--textColor);
+}
+.contaainer {
+  padding-bottom: 20px;
+}
+.rahbariyat_img {
+  border-radius: 12px;
+  padding-bottom: 10px;
+}
+.rahbar {
+  width: 180px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  color: white;
+  background-color: #3b4e32;
+  transition: all 0.6s;
+  &:hover {
+    background-color: #5d6450;
+  }
+}
+.rahbar_div {
+  max-width: 1600px;
+}
+.grid {
+  display: grid;
+  gap: 0 80px;
+  justify-content: center;
+  padding-top: 25px;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
+.img_batafsil {
+  margin: 0;
+  padding: 0;
+}
+.qobil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prorektor_1 {
+  width: 400px;
+  height: 450px;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.qobil h1 {
+  color: var(--textColor);
+  text-align: center;
+}
+.rasm3 {
+  width: 350px;
+  height: auto;
+  padding: 30px 25px;
+}
+@media (max-width: 1439px) {
+  .grid {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1380px) {
+  .grid {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 1372px) {
+  .prorektor_1 {
+    width: 350px;
+    height: 400px;
+  }
+  .rasm3 {
+    width: 300px;
+  }
+}
+@media (max-width: 1313px) {
+  .grid {
+    gap: 0 50px;
+  }
+}
+@media (max-width: 1176px) {
+  .grid {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 1155px) {
+  .grid {
+    gap: 0 30px;
+  }
+}
+@media (max-width: 1135px) {
+  .prorektor_1 {
+    width: 300px;
+    height: 350px;
+  }
+  .rasm3 {
+    width: 250px;
+  }
+}
+@media (max-width: 985px) {
+  .grid {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 972px) {
+  .grid {
+    gap: 0 20px;
+  }
+}
+@media (max-width: 945px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prorektor_1 {
+    width: 500px;
+    height: 500px;
+  }
+  .rasm3{
+	width: 450px;
+
+  }
+}
+@media(max-width:576px){
+	.rahbariyat_img{
+		width: 500px;
+	}
+}
+@media(max-width:525px){
+	.prorektor_1{
+		width: 400px;
+		height: 400px;
+	}
+	.rasm3{
+		width: 350px;
+	}
+}
+@media(max-width:500px){
+	.rahbariyat_img{
+		width: 450px;
+	}
+	
+}
+@media(max-width:450px){
+	.rahbariyat_img{
+		width: 400px;
+	}
+	
+}
+@media(max-width:420px){
+	.grid{
+		padding: 0;
+	}
+}
+@media(max-width:400px){
+	.rahbariyat_img
+	{
+		width: 350px;
+	}
+	.rasm3{
+		width: 300px;
+	}
+	.prorektor_1{
+		width: 350px;
+		height: 380px;
+	}
+}

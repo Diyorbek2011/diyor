@@ -1,0 +1,71 @@
+.universitet {
+  padding-top: 15px;
+  max-width: 1600px;
+}
+.universitet h2 {
+  color: rgb(0, 0, 0);
+  padding-bottom: 15px;
+}
+.universitet_h2{
+  font-size: 30px;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.text {
+  padding-top: 30px;
+  color: black;
+}
+.saytlar img {
+  width: 50px;
+  height: 50px;
+}
+.saytlar {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: end;
+  padding-top: 30px;
+}
+.universitet_haqida {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.universitet_haqida h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+.universitet_haqida_button {
+  font-size: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: cadetblue;
+  border: none;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  transition: all 0.8s;
+  &:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+}
+
+.to {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.universitet_h1_1{
+  font-size: 24px;
+}
+.flex1 p{
+  color: black;
+}
+.text p{
+  color: black;
+}

@@ -1,0 +1,407 @@
+.birinchi1 {
+  background-image: url(../imglar/col-bg-1.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  height: 200px;
+}
+.birinchi2 {
+  background-size: cover;
+  background-image: url(../imglar/slider-hp2-2.webp);
+  height: 250px;
+  text-align: center;
+  padding-top: 50px;
+}
+.birinchi1 h1 {
+  color: white;
+  padding-bottom: 15px;
+}
+.birinchi1 p {
+  color: white;
+}
+.birinchi3 {
+  height: 250px;
+  background-color: rgb(31, 43, 65);
+  text-align: center;
+  padding-top: 50px;
+}
+.birinchi3 p {
+  color: white;
+}
+.birinchi2 p {
+  color: white;
+}
+.birinchi2 h1 {
+  color: white;
+  padding-bottom: 15px;
+}
+.birinchi3 h1 {
+  color: white;
+  padding-bottom: 15px;
+}
+.sectio {
+  width: 63%;
+  background-color: rgb(31, 43, 65);
+  padding-left: 20px;
+}
+.page7_div {
+  max-width: 1600px;
+}
+.page_yarim {
+  padding-top: 5px;
+  display: flex;
+}
+.sectio h1 {
+  padding-top: 10px;
+  font-size: 40px;
+  color: white;
+}
+.sectio p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+.sam {
+  font-size: 15px;
+}
+.sectionn {
+  background-color: #3db166;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  padding-left: 90px;
+  padding-right: 56px;
+}
+
+.sectonn a {
+  width: 40%;
+  height: 100px;
+  background-color: #3db166;
+}
+.sectionn img {
+  width: 100px;
+  height: 100px;
+}
+.sectionn h1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.manzil-1 {
+  background-image: url(../imglar/image-bg-4.webp);
+  background-size: cover;
+  height: 352px;
+  padding-top: 35px;
+  padding-left: 25px;
+}
+.manzil-1 h1 {
+  font-size: 45px;
+  color: white;
+  padding-bottom: 3px;
+}
+.manzil-1 h3 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+.manzil-1 h4 {
+  font-size: 20px;
+  color: #3db166;
+}
+.k1{
+    margin-left: 320px;
+}
+.dox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 346.5px);
+}
+@media(max-width:1439px){
+    .ifreme{
+        width: 350px;
+    }
+    .dox{
+        justify-content: center;
+    }
+    .sectionn{
+       
+    }
+    .page_yarim{
+        justify-content: center;
+    }
+}
+@media(max-width:1393px){
+    .ifreme{
+        width: 340px;
+    }
+}
+@media(max-width:1385px){
+    .dox{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    
+    .ifreme{
+        width: 700px;
+    }
+    .manzil-1 h1{
+        font-size: 55px;
+        text-align: center;
+    }
+    .manzil-1 h3{
+        font-size: 35px;
+        text-align: center;
+    }
+}
+@media(max-width:1050px){
+    .ifreme{
+        width: 500px;
+    }
+}
+@media(max-width:835px){
+    .ifreme{
+        width: 400px;
+    }
+}
+@media(max-width:735px){
+    .ifreme{
+        width: 350px;
+    }
+}
+@media(max-width:685px){
+    .manzil-1 h1{
+        font-size: 45px;
+    }
+    .manzil-1 h3{
+        font-size: 25px;
+    }
+    .manzil-1 h4{
+        text-align: center;
+    }
+}
+@media(max-width:650px){
+    .dox{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ifreme{
+        width: 600px;
+    }
+    .manzil-1{
+        width: 575px;
+    }
+    .dox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .manzil-1 h1{
+        font-size: 55px;
+    }
+    .manzil-1 h3{
+        font-size: 35px;
+    }
+    .manzil-1 h4{
+        text-align: center;
+    }
+}
+@media(max-width:600px){
+    .ifreme{
+        width: 550px;
+    }
+    .manzil-1{
+        width: 525px;
+    }
+}
+@media(max-width:550px){
+    .ifreme{
+        width: 500px;
+    }
+    .manzil-1{
+        width: 475px;
+    }
+}
+@media(max-width:600px){
+    .ifreme{
+        width: 450px;
+    }
+    .manzil-1{
+        width: 425px;
+    }
+}
+@media(max-width:600px){
+    .ifreme{
+        width: 400px;
+    }
+    .manzil-1{
+        width: 375px;
+    }
+}
+@media(max-width:400px){
+    .ifreme{
+        width: 350px;
+    }
+    .manzil-1{
+        width: 325px;
+    }
+}
+@media(max-width:350px){
+    .ifreme{
+        width: 350px;
+    }
+    .manzil-1{
+        width: 325px;
+    }
+}
+@media(max-width:1253px){
+    .sectio p{
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media(max-width:1098px){
+    .sectionn h1{
+        font-size: 20px;
+    }
+}
+@media(max-width:1328px){
+    .sectionn{
+        gap: 10px;
+    }
+}
+@media(max-width:1228px){
+    .sectionn h1{
+        font-size: 19px;
+    }
+}
+@media(max-width:1202px){
+    .sectionn img{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media(max-width:1151px){
+    .sectionn h1{
+        font-size: 17px;
+    }
+}
+@media(max-width:1098px){
+    .sectionn img{
+        width: 70px;
+        height: 70px;
+    }
+    .sectionn h1{
+        font-size: 16px;
+    }
+}
+@media(max-width:970px){
+    .sectio p{
+        font-size: 14px;
+    }
+    .sectionn{
+        padding: 15px;
+    }
+}
+@media(max-width:877px){
+    .sectio p{
+        text-align: start;
+    }
+}
+@media(max-width:758px){
+    .sectionn{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:556px){
+    .page_yarim{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectio{
+        width: auto;
+    }
+    .sectionn{
+        width: 510px;
+    }
+}
+@media(max-width:539px){
+    .sectionn{
+        width: 500px;
+    }
+}
+@media(max-width:529px){
+    .sectionn{
+        width: 480px;
+    }
+}
+@media(max-width:510px){
+    .sectionn{
+        width: 450px;
+    }
+}
+@media(max-width:479px){
+    .sectionn{
+        width: 430px;
+    }
+}
+@media(max-width:459px){
+    .sectionn{
+        width: 400px;
+    }
+}
+@media(max-width:430px){
+    .sectionn{
+        width: 380px;
+    }
+}
+@media(max-width:409px){
+    .sectionn{
+        width: 350px;
+    }
+}
+@media(max-width:379px){
+    .sectionn{
+        width: 320px;
+    }
+}
+@media(max-width:379px){
+    .sectionn{
+        width: 300px;
+    }
+}
+@media(max-width:360px){
+    .manzil-1{
+        width: 340px;
+    }
+}
+@media(max-width:358px){
+    .manzil-1{
+        width: 330px;
+    }
+}
+@media(max-width:355px){
+    .manzil-1{
+        width: 320px;
+    }
+    .ifreme{
+        width: 350px;
+    }
+}
+@media(max-width:363px){
+    .ifreme{
+        width: 350px;
+    }
+}
+@media(max-width:358px){
+    .ifreme{
+        width: 320px;
+    }
+    .manzil-1{
+        width: 310px;
+    }
+}

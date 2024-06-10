@@ -1,0 +1,157 @@
+{
+  "baka": [
+    {
+      "id": 1,
+      "image": "./src/imglar/Filologiya.png",
+      "nom": "Filologiya va tillarni o‘qitish",
+      "malumot": "Tilshunoslar tanlangan til profili doirasida universal tayyorgarlikdan o’tadilar.",
+      "batafsil": "Batafsil"
+    },
+    {
+      "id": 2,
+      "image": "./src/imglar/Boshlangich.png",
+      "nom": "Boshlang‘ich ta’lim",
+      "malumot": "Psixologiya va pedagogika sohasida dunyoning eng yaxshi amaliyotini boshlang’ich ta’limda bolalar bilan ishlashda qo’llang.",
+      "batafsil": "Batafsil"
+    },
+    {
+      "id": 3,
+      "image": "./src/imglar/Psixologiya.png",
+      "nom": "Psixologiya",
+      "malumot": "Psixologlar davlat va tijorat tashkilotlarida talabga ega bo’lgan va yaqin yillarda mashhurligi juda ham yuqori sur’atlarda o’sadigan kasblardan hisoblanadi.",
+      "batafsil":"Batafsil"
+    },
+    {
+      "id": 4,
+      "image": "./src/imglar/col-icon-4.png",
+      "nom": "Iqtisodiyot",
+      "malumot": "Ushbu dastur sizga doimiy ravishda o’zgarib turadigan raqobat muhitida tashkilotlarning qanday ishlashini tushunishga imkon beradi.",
+      "batafsil":"Batafsil"
+    },
+    {
+      "id": 5,
+      "image": "./src/imglar/Moliya-600x600.png",
+      "nom": "Moliya va moliyaviy texnologiyalar",
+      "malumot": "Ushbu yo’nalish sizga moliyaviy mutaxassis sifatida kerak bo’ladigan asosiy bilimlarni beradi.",
+      "batafsil":"Batafsil"
+    },
+    {
+      "id": 6,
+      "image": "./src/imglar/Dasturlash-600x600.png",
+      "nom": "Kompyuter ilmlari va dasturlash texnologiyalari",
+      "malumot": "Kompyuter injiniringi – eng talab qilinadigan va yuqori haq to’lanadigan faoliyat sohalaridan biridir.",
+      "batafsil":"Batafsil"
+    },
+    {
+      "id": 7,
+      "image": "./src/imglar/buxgalteriya.png",
+      "nom": "Buxgalteriya hisobi va audit",
+      "malumot": "Ushbu kurs sizni ham buxgalteriya hisobi ham audit sohasida karyeraga tayyorlaydi.",
+      "batafsil":"Batafsil"
+    },
+    {
+      "id": 8,
+      "image": "./src/imglar/Maktabgacha.png",
+      "nom": "Maktabgacha ta’lim",
+      "malumot": "Maktabgacha ta’lim ixtisosligi maktabgacha yoshdagi bolalarni rivojlantirish, o’qitish va tarbiyalash bo’yicha mutaxassislarni tayorlaydi.",
+      "batafsil":"Batafsil"
+    }
+  ],
+  "Rahbarlar": [
+    {
+      "name": "John Doe",
+      "position": "CEO",
+      "bio": "John has over 20 years of experience in the tech industry.",
+      "education": "MBA from Harvard Business School",
+      "achievements": "Top 100 Tech Leaders of 2023",
+      "image": "path/to/john-image.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/johndoe"
+      }
+    },
+    {
+      "name": "Jane Smith",
+      "position": "CTO",
+      "bio": "Jane is a technology visionary with a strong background in software development.",
+      "education": "PhD in Computer Science from MIT",
+      "achievements": "Innovator of the Year 2022",
+      "image": "path/to/jane-image.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/janesmith"
+      }
+    }
+  ],
+  
+    "page5": {
+      "yangiliklar": [
+        {
+          "image": "./src/imglar/photo_2023-03-06_11-54-12-700x430.jpg",
+          "date": "MART 7, 2023",
+          "title": "Innovatsion va ijtimoiy iqtisodiyot universitetida «To’maris» sport musobaqalari o’tkazildi"
+        },
+        {
+          "image": "./src/imglar/photo_2023-03-01_17-34-46-150x150.jpg",
+          "date": "MART 7, 2023",
+          "title": "IIIU universiteti talabalari o‘rtasida “Zakovat” intellektual o‘yini o‘tkazildi"
+        },
+        {
+          "image": "./src/imglar/image_2022-12-27_10-10-06-150x150.webp",
+          "date": "DEKABR 27, 2022",
+          "title": "Talabalarga 50% chegirma"
+        },
+        {
+          "image": "./src/imglar/image_2022-12-27_10-09-36-150x150.webp",
+          "date": "DEKABR 27, 2022",
+          "title": "2022-2023 o’quv yili uchun qabul davom etmoqda"
+        }
+      ],
+      "partners": [
+        {
+          "image": "./src/imglar/university-logo.png",
+          "name": "IN A WORLD RACING FORWARD",
+          "link": "https://universty-berdimurodov.vercel.app"
+        },
+        {
+          "image": "./src/imglar/logo.png",
+          "name": "Toshkent Moliya Inisituti",
+          "link": "https://tfi.uz/uz-Latn"
+        },
+        {
+          "image": "./src/imglar/logotype.png",
+          "name": "Karlstads Universitet",
+          "link": "https://www.kau.se/"
+        },
+        {
+          "image": "./src/imglar/Ku-ucph-logo-svg.svg.png",
+          "name": "KopenHavns University",
+          "link": "https://www.ku.dk/"
+        },
+        {
+          "image": "./src/imglar/177110.png",
+          "name": "Azərbaycan Dövlət İqtisad Universiteti",
+          "link": "https://unec.edu.az/"
+        },
+        {
+          "image": "./src/imglar/155690_1200px-Goteborgs_universitet_seal.svg.png",
+          "name": "GothenBurg University",
+          "link": "https://www.gu.se/en"
+        },
+        {
+          "image": "./src/imglar/android-chrome-512x512.png",
+          "name": "Aalborg Universitet",
+          "link": "https://www.aau.dk/"
+        },
+        {
+          "image": "./src/imglar/Peking_University_seal.svg.png",
+          "name": "Peking University",
+          "link": "https://www.pku.edu.cn/"
+        },
+        {
+          "image": "./src/imglar/Lund_University_seal.svg.png",
+          "name": "Lund University",
+          "link": "https://www.lu.se/"
+        }
+      ]
+    }
+  
+}
